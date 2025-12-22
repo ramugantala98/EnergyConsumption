@@ -6,7 +6,7 @@ from dataprep import load_data, basic_clean, feature_engineer, get_train_val
 import pandas as pd
  
 DATA_PATH = "Energy_consumption.csv"
-
+print("test   ")
 def main():
     # Load and prepare data
     df = load_data(DATA_PATH)
